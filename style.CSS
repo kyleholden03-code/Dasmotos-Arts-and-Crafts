@@ -48,7 +48,7 @@ color: black;
 }
 
 strong {
-color: blue;
+color: blue !important;
 }
 
 
