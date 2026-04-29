@@ -12,6 +12,15 @@ justify-content: center;
 align-items: center;
 }
 
+nav {
+  font-weight: bold;
+  color: midnight;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+  
 section {
 margin: 20px;
 padding: 10px;
