@@ -15,10 +15,18 @@ background-image: url("pattern.jpeg");
 
 nav {
   font-weight: bold;
-  color: midnightblue;
   justify-content: center;
   align-items: center;
   font-size: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: blue;
 }
 
 nav ul {
@@ -29,10 +37,16 @@ nav ul {
 }
 
 section {
-margin: 20px;
-padding: 10px;
+  margin: 40px auto;
+  max-width: 800px;
 }
 
+img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 10px 0;
+}
 #Brushes h2 {
 background-color: mediumspringgreen;
 font-family: Helvetica;
