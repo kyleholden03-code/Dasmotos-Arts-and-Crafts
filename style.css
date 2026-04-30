@@ -15,13 +15,19 @@ background-image: url("pattern.jpeg");
 
 nav {
   font-weight: bold;
-  color: midnight;
-  display: flex;
+  color: midnightblue;
   justify-content: center;
   align-items: center;
   font-size: 40px;
 }
-  
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
 section {
 margin: 20px;
 padding: 10px;
