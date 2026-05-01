@@ -46,8 +46,9 @@ img {
   width: 100%;
   max-width: 400px;
   display: block;
-  margin: 10px 0;
+  margin: 20px auto;
 }
+
 #Brushes h2 {
 background-color: mediumspringgreen;
 font-family: Helvetica;
