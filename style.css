@@ -36,6 +36,21 @@ nav ul {
   padding: 0;
 }
 
+.hero {
+  height: 400px;
+  background-image:  url();
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+    }
+
 section {
   margin: 40px auto;
   max-width: 800px;
