@@ -60,6 +60,24 @@ nav ul {
   text-align: center;
     }
 
+.product-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.product-content img {
+  width: 50%;
+}
+
+.product-content .text {
+  width: 50%;
+}
+
+.product:nth-child(even) .product-content {
+  flex-direction: row-reverse;
+}
+
 section {
   margin: 40px auto;
   max-width: 800px;
