@@ -4,9 +4,9 @@ font-family: Helvetica, sans-serif;
 
 header h1 {
 font-family: Helvetica;
-font-size: 100px;
+font-size: 24px;
 font-weight: bold;
-color: khaki;
+color: white;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -18,7 +18,9 @@ header {
   top: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
   z-index: 10;
 }
 
@@ -46,10 +48,11 @@ nav ul {
 }
 
 .hero {
-  height: 400px;
+  height: 80vh;
   background-image:  url(pexels-pixabay-159650.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
 
   display: flex;
   flex-direction: column;
@@ -59,6 +62,19 @@ nav ul {
   color: white;
   text-align: center;
     }
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,4);
+}
+
+.hero h2,
+.hero p {
+  position: relative;
+  z-index: 1;
+}
 
 .product-content {
   display: flex;
