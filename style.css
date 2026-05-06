@@ -10,7 +10,6 @@ color: white;
 display: flex;
 justify-content: center;
 align-items: center;
-background-image: url("pattern.jpeg");
 }
 
 header {
@@ -53,6 +52,7 @@ nav ul {
   background-size: cover;
   background-position: center;
   position: relative;
+  padding-top: 80px;
 
   display: flex;
   flex-direction: column;
@@ -67,7 +67,7 @@ nav ul {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,4);
+  background: rgba(0,0,0,0.4);
 }
 
 .hero h2,
